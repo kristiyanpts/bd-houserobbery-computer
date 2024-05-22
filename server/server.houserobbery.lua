@@ -137,8 +137,8 @@ RegisterNetEvent("bd-heists:server:houserobbery:start-job", function(source, par
                     TriggerClientEvent('bd-heists:client:houserobbery:add-interactions', members[i], Jobs[group],
                         group)
                     TriggerClientEvent("sp-laptop:client:show-job-stage", members[i], {
-                        job = language.server.job_title,
-                        title = language.server.job_location,
+                        job = language.job_status.job_title,
+                        title = language.job_status.job_location,
                         hasStatus = false,
                     })
                 end
@@ -180,10 +180,10 @@ RegisterNetEvent("bd-heists:server:houserobbery:second-stage", function(groupId)
         TriggerClientEvent("bd-heists:client:houserobbery:add-interactions-second-stage", members[i], Jobs[groupId],
             groupId)
         TriggerClientEvent("sp-laptop:client:show-job-stage", members[i], {
-            job = language.server.job_title,
-            title = language.server.job_rob,
+            job = language.job_status.job_title,
+            title = language.job_status.job_rob,
             hasStatus = true,
-            statusMessage = language.server.job_robbed,
+            statusMessage = language.job_status.job_robbed,
             statusValue = "0/" .. #Jobs[groupId]["Lockers"],
         })
     end
@@ -223,10 +223,10 @@ RegisterNetEvent("bd-heists:server:houserobbery:rob-locker", function(groupId, l
             break
         else
             TriggerClientEvent("sp-laptop:client:show-job-stage", members[i], {
-                job = language.server.job_title,
-                title = language.server.job_rob,
+                job = language.job_status.job_title,
+                title = language.job_status.job_rob,
                 hasStatus = true,
-                statusMessage = language.server.job_robbed,
+                statusMessage = language.job_status.job_robbed,
                 statusValue = robbedLockers .. "/" .. #Jobs[groupId]["Lockers"],
             })
         end
