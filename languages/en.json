@@ -1,0 +1,25 @@
+{
+    "client": {
+        "hack_panel": "Hack Panel",
+        "no_item": "You don't have the required item on you.",
+        "panel_busy": "The panel is busy.",
+        "rob_drawer": "Rob Drawer",
+        "drawer_busy": "The drawer is busy.",
+        "robbing_drawer": "Robbing Drawer"
+    },
+    "server": {
+        "not_in_group": "You are not in a group.",
+        "no_house_available": "No house available for robbing.",
+        "head_to_location": "Head to the location and rob the house",
+        "not_enough_cops": "Not enough cops online.",
+        "not_leader": "You are not the group leader.",
+        "failed": "Failed to rob the house.",
+        "failed_once": "Someone failed! Get your shit together! Tries: %s/%s"
+    },
+    "job_status": {
+        "job_title": "House Robbery",
+        "job_location": "Head to the location and hack the outside panel",
+        "job_rob": "Rob everything and run away from the cops",
+        "job_robbed": "Robbed locations:"
+    }
+}
