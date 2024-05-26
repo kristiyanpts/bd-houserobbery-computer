@@ -31,7 +31,7 @@ Rewards = {
 
 HouseRobbery = {
     Misc = {
-        CopsRequired = 2,
+        CopsRequired = 0,
         EnableCopsDispatch = true,
 
         MaxFailsPerHeist = 5,
