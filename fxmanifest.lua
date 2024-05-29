@@ -2,8 +2,8 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'kristiyanpts'
-description 'Bulgar Heists for Bulgar OG by Bulgar Development'
-version '1.0.2-hotfix'
+description 'FiveM House Robbery Script - Computer Version'
+version '1.0.0'
 lua54 'yes'
 
 shared_scripts {
@@ -25,5 +25,7 @@ files {
 
 escrow_ignore {
     "shared/*.lua",
-    "languages/*.json"
+    "languages/*.json",
+    "client/**/*.lua",
+    "server/**/*.lua",
 }
