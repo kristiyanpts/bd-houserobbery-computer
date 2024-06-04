@@ -45,8 +45,6 @@ HouseRobbery = {
         Framework = "qb",   -- 'qb', 'esx' or 'standalone'
         Target = "qb",      -- 'ox' or 'qb'
         ProgressBar = "qb", -- 'ox' or 'qb'
-
-        PoliceJobName = "police",
     },
 
     RequiredItems = {
