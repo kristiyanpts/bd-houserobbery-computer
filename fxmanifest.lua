@@ -24,8 +24,7 @@ files {
 }
 
 escrow_ignore {
+    "client/**/*",
+    "server/**/*",
     "shared/*.lua",
-    "languages/*.json",
-    "client/**/*.lua",
-    "server/**/*.lua",
 }
